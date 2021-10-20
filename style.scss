@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+body {
+    margin: 0%;
+    padding: 0%;
+    h5 {
+        a {
+            text-decoration: none;
+            color: rgb(196, 8, 8);
+        }
+    }
+}
+
+.logo {
+    img {
+        width: 30%;
+        filter: invert(0.9);
+    }
+}
+
+// NAVBAR
+.navBar {
+    background-color: black;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    height: 150px;
+    ul {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding: 0%;
+        align-items: center;
+    }
+    li {
+        width: 20%;
+        margin: auto;
+        list-style: none;
+        padding: 20px;
+        font-size: 1.5em;
+        font-family: 'Tahoma', sans-serif;
+    }
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+// Galeria
+.galeriaImg {
+    text-align: center;
+    background-color: black;
+}
+
+// Donde encontrarnos
+.locales {
+    background-color: #fff;
+    height: 400px;
+    h2 {
+        font-size: 2em;
+        margin-top: 30px;
+        text-align: center;
+        padding-top: 100px;
+        font-family: 'Tahoma', sans-serif;
+        font-weight: 700;
+    }
+    hr {
+        width: 5%;
+        height: 3px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    p {
+        width: 30%;
+        margin: auto;
+        text-align: justify;
+        margin-top: 20px;
+    }
+}
+
+.localesCard {
+    background-color: #fff;
+    height: 300px;
+}
+
+.card-group {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.card {
+    padding: 20px;
+}
+
+// NOSOTROS 
+.nosotros {
+    text-align: center;
+    background-color: #fff;
+    img {
+        margin-top: 50px;
+    }
+    p {
+        width: 30%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    h2 {
+        font-family: 'Tahoma', sans-serif;
+        font-weight: 700;
+    }
+}
+
+// MENU 
+.menu {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    img {
+        width: 600px;
+        filter: opacity(0.3);
+    }
+}
+
+.textoMenu {
+    text-align: center;
+    position: absolute;
+    left: 13%;
+    margin-top: 80px;
+    p {
+        color: #fff;
+        font-size: 2em;
+        font-family: 'Tahoma', sans-serif;
+        font-weight: 700;
+    }
+    button {
+        border: 3px solid white;
+        background: none;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+        cursor: pointer;
+        width: 140px;
+    }
+}
+
+.textoMenu2 {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    margin-top: 80px;
+    p {
+        color: #fff;
+        font-size: 2em;
+        font-family: 'Tahoma', sans-serif;
+        font-weight: 700;
+    }
+    button {
+        border: 3px solid white;
+        background: none;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+        cursor: pointer;
+        width: 140px;
+    }
+}
+
+.textoMenu3 {
+    width: 33%;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    margin-top: 80px;
+    p {
+        color: #fff;
+        font-size: 2em;
+        font-family: 'Tahoma', sans-serif;
+        font-weight: 700;
+    }
+    button {
+        border: 3px solid white;
+        background: none;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+        cursor: pointer;
+        width: 140px;
+    }
+    button:hover {
+        background-color: #fff;
+        color: black;
+    }
+}

@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Festive&display=swap");
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+body h5 a {
+  text-decoration: none;
+  color: #c40808;
+}
+
+.logo img {
+  width: 30%;
+  -webkit-filter: invert(0.9);
+          filter: invert(0.9);
+}
+
+.navBar {
+  background-color: black;
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 150px;
+}
+
+.navBar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navBar li {
+  width: 20%;
+  margin: auto;
+  list-style: none;
+  padding: 20px;
+  font-size: 1.5em;
+  font-family: 'Tahoma', sans-serif;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navBar a:hover {
+  text-decoration: underline;
+}
+
+.galeriaImg {
+  text-align: center;
+  background-color: black;
+}
+
+.locales {
+  background-color: #fff;
+  height: 400px;
+}
+
+.locales h2 {
+  font-size: 2em;
+  margin-top: 30px;
+  text-align: center;
+  padding-top: 100px;
+  font-family: 'Tahoma', sans-serif;
+  font-weight: 700;
+}
+
+.locales hr {
+  width: 5%;
+  height: 3px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.locales p {
+  width: 30%;
+  margin: auto;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.localesCard {
+  background-color: #fff;
+  height: 300px;
+}
+
+.card-group {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.card {
+  padding: 20px;
+}
+
+.nosotros {
+  text-align: center;
+  background-color: #fff;
+}
+
+.nosotros img {
+  margin-top: 50px;
+}
+
+.nosotros p {
+  width: 30%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.nosotros h2 {
+  font-family: 'Tahoma', sans-serif;
+  font-weight: 700;
+}
+
+.menu {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+}
+
+.menu img {
+  width: 600px;
+  -webkit-filter: opacity(0.3);
+          filter: opacity(0.3);
+}
+
+.textoMenu {
+  text-align: center;
+  position: absolute;
+  left: 13%;
+  margin-top: 80px;
+}
+
+.textoMenu p {
+  color: #fff;
+  font-size: 2em;
+  font-family: 'Tahoma', sans-serif;
+  font-weight: 700;
+}
+
+.textoMenu button {
+  border: 3px solid white;
+  background: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  width: 140px;
+}
+
+.textoMenu2 {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  margin-top: 80px;
+}
+
+.textoMenu2 p {
+  color: #fff;
+  font-size: 2em;
+  font-family: 'Tahoma', sans-serif;
+  font-weight: 700;
+}
+
+.textoMenu2 button {
+  border: 3px solid white;
+  background: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  width: 140px;
+}
+
+.textoMenu3 {
+  width: 33%;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  margin-top: 80px;
+}
+
+.textoMenu3 p {
+  color: #fff;
+  font-size: 2em;
+  font-family: 'Tahoma', sans-serif;
+  font-weight: 700;
+}
+
+.textoMenu3 button {
+  border: 3px solid white;
+  background: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  width: 140px;
+}
+
+.textoMenu3 button:hover {
+  background-color: #fff;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
