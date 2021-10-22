@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
 body {
+    background-color: black;
     margin: 0%;
     padding: 0%;
     h5 {
@@ -98,6 +99,7 @@ body {
 
 // NOSOTROS 
 .nosotros {
+    height: 1100px;
     text-align: center;
     background-color: #fff;
     img {
@@ -116,7 +118,6 @@ body {
 
 // MENU 
 .menu {
-    margin-top: 100px;
     display: flex;
     justify-content: center;
     background-color: black;
@@ -189,11 +190,59 @@ body {
         color: white;
         text-transform: uppercase;
         font-weight: 700;
-        cursor: pointer;
         width: 140px;
+        cursor: pointer;
     }
     button:hover {
         background-color: #fff;
         color: black;
+    }
+}
+
+// FOOTER
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+.redes {
+    margin-top: 150px;
+    height: 200px;
+    img {
+        margin-top: 10px;
+        width: 30px;
+        margin-right: 20px;
+    }
+    h6 {
+        color: #fff;
+        font-family: 'Verdana', sans-serif;
+        ;
+    }
+    p {
+        letter-spacing: 3px;
+        color: #fff;
+    }
+}
+
+.copy {
+    margin-top: 50px;
+}
+
+// CONTACTO
+.logoContacto {
+    display: flex;
+    justify-content: center;
+    img {
+        width: 200px;
+        filter: invert(0.9);
+    }
+    ul {
+        justify-content: right;
+    }
+    li {
+        color: #fff;
+        list-style: none;
+        display: inline-flex;
+        margin-right: 10px;
     }
 }
