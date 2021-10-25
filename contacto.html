@@ -14,8 +14,8 @@
     <div class="logoContacto">
         <a href="index.html"><img src="./assets/logo.svg" alt=""></a>
         <ul>
-            <li>Registrate</li>
-            <li>Iniciar sesión</li>
+            <li id="showRegistro">Registrate</li>
+            <li id="showIniciarSesion">Iniciar sesión</li>
         </ul>
     </div>
 
@@ -60,7 +60,28 @@
         <button>ENVIAR</button>
     </form>
 
+    <div class="registro" id="inicioSesion">
+        <div class="registroUsuario">
+            <label for="">USUARIO:</label>
+            <input type="text" placeholder="Ingrese su usuario">
+        </div>
+        <div class="registroPass">
+            <label for="">CONTRASEÑA:</label>
+            <input type="password" placeholder="Ingrese su contraseña">
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" checked>
+            <p>Mantener sesión iniciada</p>
+        </div>
+        <div> <a href="">olvidé usuario y/o contraseña</a></div>
 
+        <div class="registroButton">
+            <a href="">
+                <button>Iniciar sesión</button>
+            </a>
+        </div>
+    </div>
+    <script src="index.js"></script>
 </body>
 
 </html>
