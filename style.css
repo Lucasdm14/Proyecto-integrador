@@ -141,6 +141,7 @@ body h5 a {
   width: 600px;
   -webkit-filter: opacity(0.3);
           filter: opacity(0.3);
+  cursor: pointer;
 }
 
 .textoMenu {
@@ -254,7 +255,7 @@ footer {
 }
 
 .logoContacto {
-  width: 16%;
+  width: 20%;
   margin: auto;
 }
 
