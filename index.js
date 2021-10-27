@@ -27,3 +27,20 @@ showIniciarSesion.onclick = function() {
     }
 
 };
+
+
+// Menu hamburguesa
+
+const list = document.getElementById("list");
+const listBtn = document.getElementById("showList");
+
+
+
+listBtn.onclick = function() {
+    if (list.style.display === "none") {
+        list.style.display = "flex";
+    } else {
+        list.style.display = "none";
+    }
+
+};
