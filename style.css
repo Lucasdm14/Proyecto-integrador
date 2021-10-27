@@ -462,6 +462,7 @@ form button {
     list-style: none;
     margin-top: 10px;
     margin-left: 10px;
+    color: #fff;
   }
   .nav-bar a {
     text-decoration: none;
@@ -469,7 +470,7 @@ form button {
   .nav-bar i {
     cursor: pointer;
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 30px;
     -webkit-filter: invert(1.7);
             filter: invert(1.7);
   }
@@ -497,6 +498,9 @@ form button {
     width: 61%;
     margin: auto;
     margin-top: 80px;
+  }
+  .galeria {
+    margin-top: 30px;
   }
 }
 
@@ -527,10 +531,67 @@ form button {
     width: 500px;
   }
   .textoMenu2 {
-    margin-left: 169px;
+    margin-left: 160px;
   }
   .textoMenu3 {
-    margin-left: 169px;
+    margin-left: 160px;
+  }
+}
+
+@media (max-width: 468px) {
+  .locales {
+    width: 500px;
+    margin: auto;
+  }
+  .locales h2 {
+    font-size: 20px;
+  }
+  .locales p {
+    width: 350px;
+  }
+  .localesCard {
+    height: 800px;
+    width: 500px;
+    margin: auto;
+  }
+  .card {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .nosotros {
+    width: 500px;
+    margin: auto;
+    height: 1000px;
+  }
+  .nosotros p {
+    width: 300px;
+  }
+  .nosotros img {
+    width: 400px;
+  }
+  .menu img {
+    width: 400px;
+  }
+  .textoMenu {
+    width: 73%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .textoMenu2 {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .textoMenu3 {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  footer p {
+    width: 500px;
+    margin: auto;
+    font-size: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */

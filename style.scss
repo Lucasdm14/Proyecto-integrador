@@ -378,7 +378,7 @@ form {
 }
 
 // MEDIAQUERIES
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
     .navBar {
         display: none;
     }
@@ -395,6 +395,7 @@ form {
             list-style: none;
             margin-top: 10px;
             margin-left: 10px;
+            color: #fff;
         }
         a {
             text-decoration: none;
@@ -402,7 +403,7 @@ form {
         i {
             cursor: pointer;
             margin-left: 50px;
-            margin-top: 50px;
+            margin-top: 30px;
             filter: invert(1.7);
         }
     }
@@ -428,9 +429,13 @@ form {
         margin: auto;
         margin-top: 80px;
     }
+    .galeria {
+        margin-top: 30px;
+    }
 }
 
-@media (max-width:768px) {
+// MEDIA 768px
+@media (max-width: 768px) {
     .galeria {
         img {
             width: 400px;
@@ -461,9 +466,68 @@ form {
         }
     }
     .textoMenu2 {
-        margin-left: 169px;
+        margin-left: 160px;
     }
     .textoMenu3 {
-        margin-left: 169px;
+        margin-left: 160px;
+    }
+}
+
+@media (max-width:468px) {
+    .locales {
+        width: 500px;
+        margin: auto;
+        h2 {
+            font-size: 20px;
+        }
+        p {
+            width: 350px;
+        }
+    }
+    .localesCard {
+        height: 800px;
+        width: 500px;
+        margin: auto;
+    }
+    .card {
+        justify-content: center;
+    }
+    .nosotros {
+        width: 500px;
+        margin: auto;
+        height: 1000px;
+        p {
+            width: 300px;
+        }
+        img {
+            width: 400px;
+        }
+    }
+    .menu {
+        img {
+            width: 400px;
+        }
+    }
+    .textoMenu {
+        width: 73%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .textoMenu2 {
+        width: 100%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .textoMenu3 {
+        width: 100%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    footer {
+        p {
+            width: 500px;
+            margin: auto;
+            font-size: 10px;
+        }
     }
 }
