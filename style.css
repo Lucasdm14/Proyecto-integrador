@@ -109,6 +109,7 @@ body h5 a {
   background-color: #fff;
   text-align: center;
   border: 1px solid black;
+  border-radius: 10px;
   width: 20%;
   height: 200px;
   margin-right: 10px;
@@ -121,6 +122,12 @@ body h5 a {
 
 .cardLocal a {
   text-transform: none;
+}
+
+.cardLocal:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -ms-transform: scale(1.1);
 }
 
 .nosotros {
@@ -495,29 +502,33 @@ form button {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-left: 215px;
-  }
-  .textoMenu {
-    width: 77%;
+    width: 400px;
     margin: auto;
-    margin-top: 80px;
-  }
-  .textoMenu2 {
-    width: 61%;
-    margin: auto;
-    margin-top: 80px;
-  }
-  .textoMenu3 {
-    width: 61%;
-    margin: auto;
-    margin-top: 80px;
   }
   .galeria {
     margin-top: 30px;
   }
+  .textoMenu {
+    width: 75%;
+    margin: auto;
+  }
+  .textoMenu2 {
+    width: 41%;
+    margin: auto;
+  }
+  .textoMenu3 {
+    width: 41%;
+    margin: auto;
+  }
+  .menuImg {
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 768px) {
+  .galeria p {
+    width: 320px;
+  }
   .galeria img {
     width: 400px;
   }
@@ -527,8 +538,11 @@ form button {
   .localesCard {
     height: 450px;
   }
-  .card {
-    margin-top: 50px;
+  .cardLocal {
+    width: 200px;
+  }
+  .cardLocal p {
+    width: 200px;
   }
   .nosotros {
     height: 1100px;
@@ -540,18 +554,15 @@ form button {
     margin: auto;
     text-align: center;
   }
-  .menu img {
-    width: 500px;
-  }
   .textoMenu2 {
-    margin-left: 160px;
+    margin-left: 50px;
   }
   .textoMenu3 {
-    margin-left: 160px;
+    margin-left: 50px;
   }
 }
 
-@media (max-width: 468px) {
+@media (max-width: 490px) {
   .locales {
     width: 500px;
     margin: auto;
@@ -588,32 +599,45 @@ form button {
   .nosotros p {
     width: 300px;
     margin: auto;
+    margin-top: 20px;
   }
   .nosotros img {
     width: 380px;
   }
+  .menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .menu img {
     width: 400px;
   }
-  .textoMenu {
-    width: 73%;
-    margin: auto;
-    margin-top: 30px;
-  }
   .textoMenu2 {
-    width: 100%;
-    margin: auto;
-    margin-top: 30px;
+    margin-left: 107px;
   }
   .textoMenu3 {
-    width: 100%;
-    margin: auto;
-    margin-top: 30px;
+    margin-left: 107px;
   }
   footer p {
     width: 470px;
     margin: auto;
     font-size: 10px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .menu img {
+    width: 420px;
+  }
+  .textoMenu {
+    margin-top: 40px;
+  }
+  .textoMenu2 {
+    margin-top: 40px;
+  }
+  .textoMenu3 {
+    margin-top: 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */
