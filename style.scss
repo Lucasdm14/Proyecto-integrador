@@ -566,3 +566,42 @@ form {
         margin-top: 40px;
     }
 }
+
+// MEDIA 360px
+@media (max-width:360px) {
+    .galeria {
+        img {
+            margin-left: 40px;
+        }
+    }
+    .menu {
+        width: 80%;
+        margin: auto;
+    }
+    .textoMenu {
+        margin-left: 60px;
+    }
+    .textoMenu2 {
+        p {
+            margin-left: -5px;
+        }
+        margin-left: 135px;
+    }
+    .textoMenu3 {
+        margin-left: 140px;
+    }
+    footer {
+        h6 {
+            font-size: 13px;
+            margin-left: 100px;
+        }
+    }
+    .logoRedes {
+        margin-left: 130px;
+    }
+    .cardLocal {
+        p {
+            margin: auto;
+        }
+    }
+}
