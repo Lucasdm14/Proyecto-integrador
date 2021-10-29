@@ -95,19 +95,32 @@ body h5 a {
 }
 
 .localesCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 300px;
 }
 
-.card-group {
-  width: 60%;
-  margin: auto;
+.cardLocal {
+  background-color: #fff;
   text-align: center;
-  margin-top: -50px;
+  border: 1px solid black;
+  width: 20%;
+  height: 200px;
+  margin-right: 10px;
 }
 
-.card {
-  padding: 20px;
+.cardLocal h5 {
+  margin-top: 30px;
+  color: #c00000;
+}
+
+.cardLocal a {
+  text-transform: none;
 }
 
 .nosotros {
@@ -550,14 +563,22 @@ form button {
     width: 350px;
   }
   .localesCard {
-    height: 800px;
+    height: 850px;
     width: 500px;
     margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #fff;
   }
-  .card {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  .cardLocal {
+    width: 250px;
+    margin-top: 10px;
+    margin: auto;
   }
   .nosotros {
     width: 500px;
@@ -566,9 +587,10 @@ form button {
   }
   .nosotros p {
     width: 300px;
+    margin: auto;
   }
   .nosotros img {
-    width: 400px;
+    width: 380px;
   }
   .menu img {
     width: 400px;
@@ -589,7 +611,7 @@ form button {
     margin-top: 30px;
   }
   footer p {
-    width: 500px;
+    width: 470px;
     margin: auto;
     font-size: 10px;
   }

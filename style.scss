@@ -87,19 +87,26 @@ body {
 }
 
 .localesCard {
+    display: flex;
     background-color: #fff;
+    justify-content: center;
     height: 300px;
 }
 
-.card-group {
-    width: 60%;
-    margin: auto;
+.cardLocal {
+    background-color: #fff;
     text-align: center;
-    margin-top: -50px;
-}
-
-.card {
-    padding: 20px;
+    border: 1px solid black;
+    width: 20%;
+    height: 200px;
+    margin-right: 10px;
+    h5 {
+        margin-top: 30px;
+        color: rgb(192, 0, 0);
+    }
+    a {
+        text-transform: none;
+    }
 }
 
 // NOSOTROS
@@ -485,12 +492,17 @@ form {
         }
     }
     .localesCard {
-        height: 800px;
+        height: 850px;
         width: 500px;
         margin: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
     }
-    .card {
-        justify-content: center;
+    .cardLocal {
+        width: 250px;
+        margin-top: 10px;
+        margin: auto;
     }
     .nosotros {
         width: 500px;
@@ -498,9 +510,10 @@ form {
         height: 1000px;
         p {
             width: 300px;
+            margin: auto;
         }
         img {
-            width: 400px;
+            width: 380px;
         }
     }
     .menu {
@@ -525,7 +538,7 @@ form {
     }
     footer {
         p {
-            width: 500px;
+            width: 470px;
             margin: auto;
             font-size: 10px;
         }
