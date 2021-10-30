@@ -27,7 +27,17 @@ body {
 
 // NAV-BAR
 .nav-bar {
-    display: none;
+    display: flex;
+    ul {
+        flex-direction: column;
+    }
+    li {
+        color: #fff;
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
 }
 
 // NAVBAR
@@ -410,12 +420,9 @@ form {
 }
 
 // MEDIAQUERIES
-@media (max-width: 1024px) {
-    .navBar {
-        display: none;
-    }
+@media (max-width: 1300px) {
     .nav-bar {
-        display: flex;
+        display: none;
         nav {
             text-align: center;
         }
@@ -468,7 +475,23 @@ form {
 }
 
 // MEDIA 768px
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
+    .navBar {
+        display: none;
+    }
+    .nav-bar {
+        ul {
+            flex-direction: column;
+            display: flex;
+        }
+        li {
+            color: #fff;
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
     .galeria {
         p {
             width: 320px;
@@ -510,7 +533,20 @@ form {
 }
 
 // MEDIA 490px
-@media (max-width:490px) {
+@media (max-width: 767px) {
+    .nav-bar {
+        display: flex;
+        ul {
+            flex-direction: column;
+        }
+        li {
+            color: #fff;
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
     .locales {
         width: 500px;
         margin: auto;
@@ -569,7 +605,10 @@ form {
 }
 
 // MEDIA 1300px
-@media (max-width:1400px) {
+@media (max-width: 1400px) {
+    .nav-bar {
+        display: none;
+    }
     .menu {
         img {
             width: 420px;
@@ -587,7 +626,21 @@ form {
 }
 
 // MEDIA 360px
-@media (max-width:360px) {
+@media (max-width: 360px) {
+    .nav-bar {
+        display: flex;
+        ul {
+            flex-direction: column;
+            display: none;
+        }
+        li {
+            color: #fff;
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
     .galeria {
         img {
             margin-left: 40px;
@@ -622,5 +675,90 @@ form {
         p {
             margin: auto;
         }
+    }
+}
+
+// MEDIA 490px 
+@media (max-width: 490px) {
+    .nav-bar {
+        display: flex;
+        ul {
+            flex-direction: column;
+            display: none;
+        }
+        li {
+            color: #fff;
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+    .galeria {
+        img {
+            margin-left: 40px;
+        }
+    }
+    .menu {
+        width: 80%;
+        margin: auto;
+    }
+    .textoMenu {
+        margin-left: 60px;
+    }
+    .textoMenu2 {
+        p {
+            margin-left: -5px;
+        }
+        margin-left: 135px;
+    }
+    .textoMenu3 {
+        margin-left: 140px;
+    }
+    footer {
+        h6 {
+            font-size: 13px;
+            margin-left: 100px;
+        }
+    }
+    .logoRedes {
+        margin-left: 130px;
+    }
+    .cardLocal {
+        p {
+            margin: auto;
+        }
+    }
+}
+
+// MEDIA 1925px
+@media (max-width: 1925px) {
+    .nav-bar {
+        display: none;
+        nav {
+            text-align: center;
+        }
+        ul {
+            display: none;
+            flex-direction: column;
+        }
+        li {
+            list-style: none;
+            margin-top: 10px;
+            margin-left: 10px;
+            color: #fff;
+        }
+        a {
+            text-decoration: none;
+        }
+        i {
+            cursor: pointer;
+            margin-left: 50px;
+            margin-top: 30px;
+            filter: invert(1.7);
+        }
+    }
+    .nosotros {
+        height: 1200px;
     }
 }

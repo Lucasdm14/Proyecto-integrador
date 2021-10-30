@@ -34,7 +34,25 @@ body h5 a {
 }
 
 .nav-bar {
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-bar ul {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nav-bar li {
+  color: #fff;
+  list-style: none;
+}
+
+.nav-bar a {
+  text-decoration: none;
 }
 
 .navBar {
@@ -488,14 +506,9 @@ form button {
   border-radius: 5px;
 }
 
-@media (max-width: 1024px) {
-  .navBar {
-    display: none;
-  }
+@media (max-width: 1300px) {
   .nav-bar {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
   }
   .nav-bar nav {
     text-align: center;
@@ -554,7 +567,26 @@ form button {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
+  .navBar {
+    display: none;
+  }
+  .nav-bar ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav-bar li {
+    color: #fff;
+    list-style: none;
+  }
+  .nav-bar a {
+    text-decoration: none;
+  }
   .galeria p {
     width: 320px;
   }
@@ -591,7 +623,25 @@ form button {
   }
 }
 
-@media (max-width: 490px) {
+@media (max-width: 767px) {
+  .nav-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav-bar ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nav-bar li {
+    color: #fff;
+    list-style: none;
+  }
+  .nav-bar a {
+    text-decoration: none;
+  }
   .locales {
     width: 500px;
     margin: auto;
@@ -656,6 +706,9 @@ form button {
 }
 
 @media (max-width: 1400px) {
+  .nav-bar {
+    display: none;
+  }
   .menu img {
     width: 420px;
   }
@@ -671,6 +724,25 @@ form button {
 }
 
 @media (max-width: 360px) {
+  .nav-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav-bar ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: none;
+  }
+  .nav-bar li {
+    color: #fff;
+    list-style: none;
+  }
+  .nav-bar a {
+    text-decoration: none;
+  }
   .galeria img {
     margin-left: 40px;
   }
@@ -699,6 +771,92 @@ form button {
   }
   .cardLocal p {
     margin: auto;
+  }
+}
+
+@media (max-width: 490px) {
+  .nav-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav-bar ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: none;
+  }
+  .nav-bar li {
+    color: #fff;
+    list-style: none;
+  }
+  .nav-bar a {
+    text-decoration: none;
+  }
+  .galeria img {
+    margin-left: 40px;
+  }
+  .menu {
+    width: 80%;
+    margin: auto;
+  }
+  .textoMenu {
+    margin-left: 60px;
+  }
+  .textoMenu2 {
+    margin-left: 135px;
+  }
+  .textoMenu2 p {
+    margin-left: -5px;
+  }
+  .textoMenu3 {
+    margin-left: 140px;
+  }
+  footer h6 {
+    font-size: 13px;
+    margin-left: 100px;
+  }
+  .logoRedes {
+    margin-left: 130px;
+  }
+  .cardLocal p {
+    margin: auto;
+  }
+}
+
+@media (max-width: 1925px) {
+  .nav-bar {
+    display: none;
+  }
+  .nav-bar nav {
+    text-align: center;
+  }
+  .nav-bar ul {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nav-bar li {
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #fff;
+  }
+  .nav-bar a {
+    text-decoration: none;
+  }
+  .nav-bar i {
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 30px;
+    -webkit-filter: invert(1.7);
+            filter: invert(1.7);
+  }
+  .nosotros {
+    height: 1200px;
   }
 }
 /*# sourceMappingURL=style.css.map */
