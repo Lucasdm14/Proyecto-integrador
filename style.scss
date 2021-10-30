@@ -27,7 +27,7 @@ body {
 
 // NAV-BAR
 .nav-bar {
-    display: flex;
+    display: none;
     ul {
         flex-direction: column;
     }
@@ -532,7 +532,7 @@ form {
     }
 }
 
-// MEDIA 490px
+// MEDIA 767px
 @media (max-width: 767px) {
     .nav-bar {
         display: flex;
@@ -628,7 +628,6 @@ form {
 // MEDIA 360px
 @media (max-width: 360px) {
     .nav-bar {
-        display: flex;
         ul {
             flex-direction: column;
             display: none;
@@ -667,9 +666,11 @@ form {
             font-size: 13px;
             margin-left: 100px;
         }
-    }
-    .logoRedes {
-        margin-left: 130px;
+        .logoRedes {
+            display: flex;
+            width: 24%;
+            margin: auto;
+        }
     }
     .cardLocal {
         p {
@@ -681,10 +682,9 @@ form {
 // MEDIA 490px 
 @media (max-width: 490px) {
     .nav-bar {
-        display: flex;
         ul {
             flex-direction: column;
-            display: none;
+            // display: none;
         }
         li {
             color: #fff;
@@ -692,6 +692,7 @@ form {
         }
         a {
             text-decoration: none;
+            color: #fff;
         }
     }
     .galeria {
@@ -703,22 +704,12 @@ form {
         width: 80%;
         margin: auto;
     }
-    .textoMenu {
-        margin-left: 60px;
-    }
-    .textoMenu2 {
-        p {
-            margin-left: -5px;
-        }
-        margin-left: 135px;
-    }
-    .textoMenu3 {
-        margin-left: 140px;
-    }
     footer {
         h6 {
             font-size: 13px;
-            margin-left: 100px;
+        }
+        .logoRedes {
+            margin-right: 100px;
         }
     }
     .logoRedes {

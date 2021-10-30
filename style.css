@@ -34,9 +34,7 @@ body h5 a {
 }
 
 .nav-bar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
 }
 
 .nav-bar ul {
@@ -724,11 +722,6 @@ form button {
 }
 
 @media (max-width: 360px) {
-  .nav-bar {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
   .nav-bar ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -766,8 +759,12 @@ form button {
     font-size: 13px;
     margin-left: 100px;
   }
-  .logoRedes {
-    margin-left: 130px;
+  footer .logoRedes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 24%;
+    margin: auto;
   }
   .cardLocal p {
     margin: auto;
@@ -775,17 +772,11 @@ form button {
 }
 
 @media (max-width: 490px) {
-  .nav-bar {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
   .nav-bar ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    display: none;
   }
   .nav-bar li {
     color: #fff;
@@ -793,6 +784,7 @@ form button {
   }
   .nav-bar a {
     text-decoration: none;
+    color: #fff;
   }
   .galeria img {
     margin-left: 40px;
@@ -801,21 +793,11 @@ form button {
     width: 80%;
     margin: auto;
   }
-  .textoMenu {
-    margin-left: 60px;
-  }
-  .textoMenu2 {
-    margin-left: 135px;
-  }
-  .textoMenu2 p {
-    margin-left: -5px;
-  }
-  .textoMenu3 {
-    margin-left: 140px;
-  }
   footer h6 {
     font-size: 13px;
-    margin-left: 100px;
+  }
+  footer .logoRedes {
+    margin-right: 100px;
   }
   .logoRedes {
     margin-left: 130px;
