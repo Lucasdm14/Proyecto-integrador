@@ -17,6 +17,10 @@ body h5 a {
           flex-direction: column;
 }
 
+.logo ul {
+  margin-left: -15px;
+}
+
 .logo ol {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -651,7 +655,7 @@ form button {
   }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
   .menu img {
     width: 420px;
   }

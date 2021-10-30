@@ -13,6 +13,9 @@ body {
 
 .logo {
     flex-direction: column;
+    ul {
+        margin-left: -15px;
+    }
     ol {
         display: inline-flex;
     }
@@ -566,7 +569,7 @@ form {
 }
 
 // MEDIA 1300px
-@media (max-width:1300px) {
+@media (max-width:1400px) {
     .menu {
         img {
             width: 420px;
