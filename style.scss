@@ -625,8 +625,8 @@ form {
     }
 }
 
-// MEDIA 360px
-@media (max-width: 360px) {
+// MEDIA 400px
+@media (max-width: 400px) {
     .nav-bar {
         ul {
             flex-direction: column;
@@ -650,7 +650,7 @@ form {
         margin: auto;
     }
     .textoMenu {
-        margin-left: 60px;
+        margin-left: 50px;
     }
     .textoMenu2 {
         p {
@@ -659,6 +659,10 @@ form {
         margin-left: 135px;
     }
     .textoMenu3 {
+        p {
+            width: 200px;
+            margin-left: -20px;
+        }
         margin-left: 140px;
     }
     footer {
@@ -668,7 +672,7 @@ form {
         }
         .logoRedes {
             display: flex;
-            width: 24%;
+            width: 30%;
             margin: auto;
         }
     }
@@ -751,5 +755,12 @@ form {
     }
     .nosotros {
         height: 1200px;
+    }
+}
+
+// MEDIA 380px
+@media(max-width: 300px) {
+    .textoMenu {
+        margin-left: 75px;
     }
 }
