@@ -27,8 +27,8 @@ body {
 
 // NAV-BAR
 .nav-bar {
-    display: none;
     ul {
+        color: #fff;
         flex-direction: column;
     }
     li {
@@ -532,78 +532,6 @@ form {
     }
 }
 
-// MEDIA 767px
-@media (max-width: 767px) {
-    .nav-bar {
-        display: flex;
-        ul {
-            flex-direction: column;
-        }
-        li {
-            color: #fff;
-            list-style: none;
-        }
-        a {
-            text-decoration: none;
-        }
-    }
-    .locales {
-        width: 500px;
-        margin: auto;
-        h2 {
-            font-size: 20px;
-        }
-        p {
-            width: 350px;
-        }
-    }
-    .localesCard {
-        height: 850px;
-        width: 500px;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        background-color: #fff;
-    }
-    .cardLocal {
-        width: 250px;
-        margin-top: 10px;
-        margin: auto;
-    }
-    .nosotros {
-        width: 500px;
-        margin: auto;
-        height: 1000px;
-        p {
-            width: 300px;
-            margin: auto;
-            margin-top: 20px;
-        }
-        img {
-            width: 380px;
-        }
-    }
-    .menu {
-        flex-direction: column;
-        img {
-            width: 400px;
-        }
-    }
-    .textoMenu2 {
-        margin-left: 107px;
-    }
-    .textoMenu3 {
-        margin-left: 107px;
-    }
-    footer {
-        p {
-            width: 470px;
-            margin: auto;
-            font-size: 10px;
-        }
-    }
-}
-
 // MEDIA 1300px
 @media (max-width: 1400px) {
     .nav-bar {
@@ -625,104 +553,48 @@ form {
     }
 }
 
-// MEDIA 400px
-@media (max-width: 400px) {
-    .nav-bar {
-        ul {
-            flex-direction: column;
-            display: none;
-        }
-        li {
-            color: #fff;
-            list-style: none;
-        }
-        a {
-            text-decoration: none;
-        }
-    }
+// MEDIA 480px
+@media (max-width: 480px) {
     .galeria {
-        img {
-            margin-left: 40px;
+        h2 {
+            font-size: 25px;
         }
     }
-    .menu {
-        width: 80%;
-        margin: auto;
-    }
-    .textoMenu {
-        margin-left: 50px;
-    }
-    .textoMenu2 {
-        p {
-            margin-left: -5px;
-        }
-        margin-left: 135px;
-    }
-    .textoMenu3 {
-        p {
-            width: 200px;
-            margin-left: -20px;
-        }
-        margin-left: 140px;
-    }
-    footer {
-        h6 {
-            font-size: 13px;
-            margin-left: 100px;
-        }
-        .logoRedes {
-            display: flex;
-            width: 30%;
-            margin: auto;
-        }
+    .localesCard {
+        height: 600px;
+        flex-direction: column;
     }
     .cardLocal {
+        margin: auto;
+        margin-top: 20px;
+    }
+    .nosotros {
+        padding-top: 50px;
+        height: 200px;
         p {
-            margin: auto;
-        }
-    }
-}
-
-// MEDIA 490px 
-@media (max-width: 490px) {
-    .nav-bar {
-        ul {
-            flex-direction: column;
-            // display: none;
-        }
-        li {
-            color: #fff;
-            list-style: none;
-        }
-        a {
-            text-decoration: none;
-            color: #fff;
-        }
-    }
-    .galeria {
-        img {
-            margin-left: 40px;
+            width: 300px;
         }
     }
     .menu {
-        width: 80%;
-        margin: auto;
+        margin-right: 50px;
+    }
+    .textoMenu2 {
+        margin-left: 117px;
+    }
+    .textoMenu3 {
+        margin-left: 117px;
     }
     footer {
-        h6 {
-            font-size: 13px;
+        p {
+            font-size: 10px;
         }
-        .logoRedes {
-            margin-right: 100px;
+        h6 {
+            font-size: 15px;
         }
     }
     .logoRedes {
-        margin-left: 130px;
-    }
-    .cardLocal {
-        p {
-            margin: auto;
-        }
+        margin-top: 20px;
+        margin-left: 40px;
     }
 }
 
@@ -759,8 +631,51 @@ form {
 }
 
 // MEDIA 380px
-@media(max-width: 300px) {
+@media (max-width: 360px) {
+    .galeria {
+        margin-left: 10px;
+    }
+    .nosotros {
+        img {
+            width: 370px;
+        }
+    }
+    .locales {
+        width: 400px;
+        margin-left: 1px;
+    }
+    .localesCard {
+        margin-left: 10px;
+        width: 400px;
+    }
+    .nosotros {
+        width: 400px;
+        margin-left: 10px;
+        height: 1000px;
+    }
     .textoMenu {
-        margin-left: 75px;
+        margin-left: 30px;
+    }
+    .textoMenu2 {
+        margin-left: 140px;
+    }
+    .textoMenu3 {
+        p {
+            width: 200px;
+        }
+        a {
+            margin-left: 30px;
+        }
+    }
+    footer {
+        p {
+            width: 417px;
+        }
+        h6 {
+            margin-left: 50px;
+        }
+        .logoRedes {
+            margin-left: 90px;
+        }
     }
 }
