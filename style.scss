@@ -411,6 +411,35 @@ form {
     }
 }
 
+// FORMULARIO CONTACTO
+.formularioContacto {
+    margin-top: 50px;
+    label {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    input {
+        width: 200px;
+    }
+    .nombreForm {
+        display: flex;
+        flex-direction: column;
+    }
+    .contactoForm {
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .textArea {
+        display: flex;
+        flex-direction: column;
+        textarea {
+            width: 400px;
+            margin: auto;
+        }
+    }
+}
+
 // MEDIAQUERIES
 @media (max-width: 1300px) {
     .nav-bar {
