@@ -33,6 +33,10 @@ body h5 a {
           filter: invert(1.7);
 }
 
+.menuHamburguesa {
+  display: none;
+}
+
 .menuHamburguesa ul {
   display: none;
 }
