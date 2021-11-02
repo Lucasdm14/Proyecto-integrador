@@ -600,6 +600,9 @@ form button {
   .menuImg {
     margin-top: 20px;
   }
+  .formResponsive {
+    display: none;
+  }
 }
 
 @media (max-width: 1023px) {
@@ -694,6 +697,9 @@ form button {
   .textoMenu3 {
     margin-left: 50px;
   }
+  .formResponsive {
+    display: none;
+  }
 }
 
 @media (max-width: 1400px) {
@@ -711,6 +717,9 @@ form button {
   }
   .textoMenu3 {
     margin-top: 40px;
+  }
+  .formResponsive {
+    display: none;
   }
 }
 
@@ -788,9 +797,77 @@ form button {
   footer h6 {
     font-size: 15px;
   }
-  .logoRedes {
+  .formRegistrarse {
+    display: none;
+  }
+  .logoContacto {
+    width: 60%;
+    margin: auto;
+  }
+  .formResponsive {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    width: 480px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .formResponsive label {
+    color: #fff;
+  }
+  .formResponsive input {
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    margin: auto;
+  }
+  .formResponsive .formResponsiveDatos {
     margin-top: 20px;
-    margin-left: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .formResponsive .fechaCodigo {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .formResponsive .nameForm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 40px;
+  }
+  .formResponsive .adressForm {
+    margin-top: 20px;
+  }
+  .formResponsive .checkboxForm {
+    margin-top: 20px;
+    height: 20px;
+  }
+  .formResponsive .novedadesForm {
+    height: 150px;
+    margin-left: -80px;
+    margin-top: 14px;
+    display: block;
+  }
+  .formResponsive .novedadesForm input {
+    height: 15px;
+  }
+  .formResponsive .novedadesForm label {
+    margin-left: -80px;
+  }
+  .formResponsive .buttonForm {
+    background: none;
+    border-radius: 5px;
   }
 }
 
@@ -826,6 +903,21 @@ form button {
   }
   .nosotros {
     height: 1200px;
+  }
+  .formRegistrarse {
+    width: 600px;
+    margin: auto;
+    height: 570px;
+    margin-left: 32%;
+  }
+  .formRegistrarse button {
+    margin-top: 5px;
+  }
+  .formRegistrarse p {
+    display: none;
+  }
+  .formRegistrarse .datos {
+    margin-top: 10px;
   }
 }
 
@@ -990,6 +1082,154 @@ form button {
   }
   footer .logoRedes {
     margin-left: 90px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 3000px) {
+  .formResponsive {
+    display: none;
+  }
+  .formRegistrarse {
+    margin-top: 40px;
+    height: 850px;
+  }
+  .logoContacto img {
+    margin-left: -60px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1400px) {
+  .formRegistrarse {
+    display: none;
+  }
+  .logoContacto {
+    margin-left: 20%;
+  }
+  .formResponsive {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    width: 480px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .formResponsive label {
+    color: #fff;
+  }
+  .formResponsive input {
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    margin: auto;
+  }
+  .formResponsive .formResponsiveDatos {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .formResponsive .fechaCodigo {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .formResponsive .nameForm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 40px;
+  }
+  .formResponsive .adressForm {
+    margin-top: 20px;
+  }
+  .formResponsive .checkboxForm {
+    margin-top: 20px;
+    height: 20px;
+  }
+  .formResponsive .novedadesForm {
+    height: 150px;
+    margin-left: -80px;
+    margin-top: 14px;
+    display: block;
+  }
+  .formResponsive .novedadesForm input {
+    height: 15px;
+  }
+  .formResponsive .novedadesForm label {
+    margin-left: -80px;
+  }
+  .formResponsive .buttonForm {
+    background: none;
+    border-radius: 5px;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 479px) {
+  .formResponsive {
+    margin-left: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 200px;
+    height: 800px;
+    margin-top: 30px;
+  }
+  .adressForm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .fechaCodigo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .formResponsiveDatos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nameForm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .novedadesForm label {
+    font-size: 10px;
+  }
+  .logoContacto {
+    margin-left: -50px;
+  }
+  .logoContacto img {
+    height: 180px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -494,9 +494,12 @@ form {
     .menuImg {
         margin-top: 20px;
     }
+    .formResponsive {
+        display: none;
+    }
 }
 
-// MEDIA 768px
+// MEDIA 1023
 @media (max-width: 1023px) {
     .menuHamburguesa {
         display: flex;
@@ -583,6 +586,9 @@ form {
     .textoMenu3 {
         margin-left: 50px;
     }
+    .formResponsive {
+        display: none;
+    }
 }
 
 // MEDIA 1400px
@@ -604,10 +610,13 @@ form {
     .textoMenu3 {
         margin-top: 40px;
     }
+    .formResponsive {
+        display: none;
+    }
 }
 
-// MEDIA 480px
-@media (max-width:500px) {
+// MEDIA 500px
+@media (max-width: 500px) {
     .menuHamburguesa {
         display: flex;
         color: #fff;
@@ -675,9 +684,66 @@ form {
             font-size: 15px;
         }
     }
-    .logoRedes {
-        margin-top: 20px;
-        margin-left: 40px;
+    .formRegistrarse {
+        display: none;
+    }
+    .logoContacto {
+        width: 60%;
+        margin: auto;
+    }
+    .formResponsive {
+        border: 2px solid #fff;
+        border-radius: 10px;
+        width: 480px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        text-transform: uppercase;
+        label {
+            color: #fff;
+        }
+        input {
+            width: 180px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        .formResponsiveDatos {
+            margin-top: 20px;
+            display: flex;
+        }
+        .fechaCodigo {
+            margin-top: 20px;
+            display: flex;
+        }
+        .nameForm {
+            display: flex;
+            margin-top: 40px;
+        }
+        .adressForm {
+            margin-top: 20px;
+        }
+        .checkboxForm {
+            margin-top: 20px;
+            height: 20px;
+        }
+        .novedadesForm {
+            height: 150px;
+            margin-left: -80px;
+            margin-top: 14px;
+            display: block;
+            input {
+                height: 15px;
+            }
+            label {
+                margin-left: -80px;
+            }
+        }
+        .buttonForm {
+            background: none;
+            border-radius: 5px;
+        }
     }
 }
 
@@ -710,6 +776,21 @@ form {
     }
     .nosotros {
         height: 1200px;
+    }
+    .formRegistrarse {
+        width: 600px;
+        margin: auto;
+        height: 570px;
+        margin-left: 32%;
+        button {
+            margin-top: 5px;
+        }
+        p {
+            display: none;
+        }
+        .datos {
+            margin-top: 10px;
+        }
     }
 }
 
@@ -795,7 +876,7 @@ form {
 }
 
 // MEDIA 320
-@media (max-width:320px) {
+@media (max-width: 320px) {
     .menuHamburguesa {
         display: flex;
         color: #fff;
@@ -873,6 +954,122 @@ form {
         }
         .logoRedes {
             margin-left: 90px;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 3000px) {
+    .formResponsive {
+        display: none;
+    }
+    .formRegistrarse {
+        margin-top: 40px;
+        height: 850px;
+    }
+    .logoContacto {
+        img {
+            margin-left: -60px;
+        }
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1400px) {
+    .formRegistrarse {
+        display: none;
+    }
+    .logoContacto {
+        margin-left: 20%;
+    }
+    .formResponsive {
+        border: 2px solid #fff;
+        border-radius: 10px;
+        width: 480px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        text-transform: uppercase;
+        label {
+            color: #fff;
+        }
+        input {
+            width: 180px;
+            height: 30px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        .formResponsiveDatos {
+            margin-top: 20px;
+            display: flex;
+        }
+        .fechaCodigo {
+            margin-top: 20px;
+            display: flex;
+        }
+        .nameForm {
+            display: flex;
+            margin-top: 40px;
+        }
+        .adressForm {
+            margin-top: 20px;
+        }
+        .checkboxForm {
+            margin-top: 20px;
+            height: 20px;
+        }
+        .novedadesForm {
+            height: 150px;
+            margin-left: -80px;
+            margin-top: 14px;
+            display: block;
+            input {
+                height: 15px;
+            }
+            label {
+                margin-left: -80px;
+            }
+        }
+        .buttonForm {
+            background: none;
+            border-radius: 5px;
+        }
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 479px) {
+    .formResponsive {
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 800px;
+        margin-top: 30px;
+    }
+    .adressForm {
+        display: flex;
+        flex-direction: column;
+    }
+    .fechaCodigo {
+        display: flex;
+        flex-direction: column;
+    }
+    .formResponsiveDatos {
+        display: flex;
+        flex-direction: column;
+    }
+    .nameForm {
+        display: flex;
+        flex-direction: column;
+    }
+    .novedadesForm {
+        label {
+            font-size: 10px;
+        }
+    }
+    .logoContacto {
+        margin-left: -50px;
+        img {
+            height: 180px;
         }
     }
 }
