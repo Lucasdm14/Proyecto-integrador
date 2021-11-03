@@ -963,17 +963,27 @@ form {
         display: none;
     }
     .formRegistrarse {
-        margin-top: 40px;
-        height: 850px;
+        height: 820px;
+        margin: auto;
+        margin-top: 10px;
     }
     .logoContacto {
         img {
             margin-left: -60px;
         }
     }
+    .registro {
+        height: 650px;
+        width: 400px;
+        margin: auto;
+        margin-top: 100px;
+        img {
+            margin-left: -90px;
+        }
+    }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 1400px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
     .formRegistrarse {
         display: none;
     }
@@ -1034,6 +1044,25 @@ form {
             border-radius: 5px;
         }
     }
+    .registro {
+        height: 750px;
+        width: 40%;
+        margin: auto;
+        margin-top: 30px;
+        img {
+            width: 150px;
+            margin: auto;
+        }
+    }
+    .registroPass {
+        margin: auto;
+    }
+    .checkbox {
+        margin: auto;
+    }
+    a {
+        font-size: 10px;
+    }
 }
 
 @media only screen and (min-width: 200px) and (max-width: 479px) {
@@ -1071,5 +1100,24 @@ form {
         img {
             height: 180px;
         }
+    }
+    .registro {
+        height: 700px;
+        width: 250px;
+        margin: auto;
+        img {
+            margin-left: 50px;
+        }
+    }
+    .registroUsuario {
+        display: flex;
+        flex-direction: column;
+    }
+    .registroPass {
+        margin: auto;
+    }
+    .checkbox {
+        margin: auto;
+        margin-left: 30px;
     }
 }
